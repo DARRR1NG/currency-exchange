@@ -1,0 +1,33 @@
+body {
+    font-family: 'Tektur-Regular', 'sans-sefif';
+}
+
+select {
+    font-family: 'Tektur-Regular', 'sans-sefif';
+    height: 70px;
+    min-width: 400px;
+    border: none;
+    color: #fff;
+}
+
+select:focus {
+    border: none;
+    outline: none;
+}
+
+.currency-start {
+    background-color: #F6CCB1;
+}
+
+.currency-end {
+    background-color: #DB90F9;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button:active {
+    border: solid 1px black;
+}
