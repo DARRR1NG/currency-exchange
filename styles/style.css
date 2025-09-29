@@ -4,6 +4,7 @@ body {
 
 select {
     font-family: 'Tektur-Regular', 'sans-sefif';
+    font-size: 24px;
     height: 70px;
     min-width: 400px;
     border: none;
