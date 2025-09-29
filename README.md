@@ -8,7 +8,7 @@
 4. `index.html` - файл для запуска программы.
 
 ## Инструкция по запуску
-Перейти по ссылке: 
+Перейти по ссылке: .
 
 ## Макет
 https://www.figma.com/design/RaKy0QmGo0Fb0duqKS8cqT/Сайт-валют?node-id=0-1&p=f&t=9OxEKrF38XYn3Qad-0
