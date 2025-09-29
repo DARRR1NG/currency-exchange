@@ -25,7 +25,7 @@ select:focus {
 
 button {
     background-color: transparent;
-    border: none;
+    border: transparent 1px solid;
 }
 
 button:active {
