@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+<body class="body">
     <section class="currency-widget">
-        <header>Обмен валюты</header>
-        <main>
+        <header class="header">Обмен валюты</header>
+        <main class="main">
             <article class="exchange-block">
-                <div class="before-currency">
-                    <form>
-                    <select name="currency-start" id="currency-select" class="currency-start">
+                <div class="before-currency select-container">
+                    <form class="form">
+                    <select name="currency-start" id="currency-select" class="currency-start select">
                         <option value="">-- ВЫБЕРИТЕ ВАЛЮТУ ДО --</option>
                         <option value="EUR">Евро</option>
                         <option value="USD">Доллар США</option>
@@ -31,15 +31,16 @@
                         <option value="CNY">Китайский юань</option>
                         <option value="SEK">Шведская крона</option>
                     </select>
-                    <input type="number">
+                    <input type="number" placeholder="Введите сумму" class="currency-input">
                     </form>
                 </div>
-                <button>
-                    <img src="images/arrow-left-right.svg" alt="Стрелки, показывающие направление обмена">
+                <button class="button button-switch">
+                    <img src="./images/arrow-left-right.svg" class="img-desktop" alt="Стрелки, показывающие направление обмена">
+                    <img src="./images/Arrow_Down_Up.svg" class="img-mobile" alt="Стрелки, показывающие направление обмена">
                 </button>
-                <div class="after-currency">
-                    <form>
-                    <select name="currency-end" id="currency-select" class="currency-end">
+                <div class="after-currency select-container">
+                    <form class="form">
+                    <select name="currency-end" id="currency-select" class="currency-end select">
                         <option value="">-- ВЫБЕРИТЕ ВАЛЮТУ ПОСЛЕ --</option>
                         <option value="EUR">Евро</option>
                         <option value="USD">Доллар США</option>
@@ -52,12 +53,12 @@
                         <option value="CNY">Китайский юань</option>
                         <option value="SEK">Шведская крона</option>
                     </select>
-                    <input type="number">
+                    <input type="number" placeholder="Введите сумму" class="currency-input" disabled>
                     </form>
                 </div>
             </article>
         </main>
     </section>
-    <footer>©2025, DARRR1NG  & nikita-pugachev</footer>
+    <footer class="footer">©2025, DARRR1NG  & nikita-pugachev</footer>
 </body>
 </html>

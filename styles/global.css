@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: var(--font-family);
 }
 
 h1,
@@ -13,7 +14,6 @@ h6,
 p,
 span {
   margin: 0;
-  font-family: 'Itim', sans-serif;
 }
 
 ul {
