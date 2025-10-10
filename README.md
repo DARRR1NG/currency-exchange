@@ -1,8 +1,12 @@
 # Pet-проект "Обмен валюты"
 
 ## :grey_question: Описание проекта
-Сайт для просмотра конвертации валюты по актуальному курсу. Для разработки был использован API c сайта <a href="https://app.exchangerate-api.com/dashboard">ExchangeRate-API</a>.
+Адаптивный сайт для просмотра конвертации валюты по актуальному курсу. Для разработки был использован API c сайта <a href="https://app.exchangerate-api.com/dashboard">ExchangeRate-API</a>.
 <br><b>(В данный момент сайт на стадии разработки)</b>
+
+<img width="1920" height="957" alt="Версия для компьютера" src="https://github.com/user-attachments/assets/01d7588f-5d33-48bb-a997-73f07866c261" /> 
+<img width="371" height="663" alt="Версия для телефона" src="https://github.com/user-attachments/assets/b3afa43b-5db0-4790-98a7-657ce006a90e" />
+
 
 ## :file_folder: Структура проекта
 1. `fonts` - каталог шрифтов.
