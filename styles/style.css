@@ -27,7 +27,7 @@
     color: #FFFFFF;
     font-size: clamp(2rem, 1.2958rem + 3.0047vw, 4rem);
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    padding-block-start: 70px;
+    padding-block-start: 40px;
 }
 
 .main {
