@@ -9,19 +9,16 @@ let inputValueStart = 0;
 
 inputStart.addEventListener("input", () => {
   inputValueStart = inputStart.value;
-  console.log(inputValueStart);
   exchangeCurrency();
 });
 
 selectCurrencyStart.addEventListener("change", () => {
   selectedValueStart = selectCurrencyStart.value;
-  console.log(selectedValueStart);
   exchangeCurrency();
 });
 
 selectCurrencyEnd.addEventListener("change", () => {
   selectedValueEnd = selectCurrencyEnd.value;
-  console.log(selectedValueEnd);
   exchangeCurrency();
 });
 
